@@ -22,8 +22,8 @@
           <img class="header__logo-image" src="images/logo-black.svg" alt="Логотип аукциона черный">
         </a>
         <address class="address header__address">
-          <p><a href="tel:+9 999 555 5555">+9 999 555 5555</a></p>
-          <p><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
+          <p><a class="address__underline" href="tel:+9 999 555 5555">+9 999 555 5555</a></p>
+          <p><a class="address__underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
           <p>наб. Принсенграхт 263-<br>265, Амстердам</p>
         </address>
       </header>
@@ -42,33 +42,46 @@
           </div>
         </section>
         <section class="lots">
-          <h2></h2>
-          <ul>
-            <li>
-              <a href="#0">
-                <article class="card">
-                  <h3>Фильм режиссёра, который бросил киношколу</h3>
-                  <img src="images/card-lot-01.jpg" alt="Парень с девушкой на фоне парка">
-                  <p>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+          <h2 class="title__lots">ЛОТЫ</h2>
+          <ul class="lots__card-list">
+            <li class="lots__card-list-item">
+              <a class="lots__card-link" href="#0">
+                <article class="card image__card-lot-01 image__align">
+                  <div class="overlay">
+                    <div class="card__media">
+                      <h3 h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+                      <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+                    </div>
+                  </div> 
                 </article>
+              </a>
             </li>
-            <li>
-              <a href="#0">
-                <article class="card">
-                  <h3>Книга, где описан один скучный день из жизни рекламного агента</h3>
-                  <img src="images/card-lot-02.jpg" alt="Обложка кнопки Д.Улисс Иностранка">
-                  <p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+            <li class="lots__card-list-item">
+              <a class="lots__card-link" href="#0">
+                <article class="card image__card-lot-02 image__align">
+                  <div class="overlay">
+                    <div class="card__media">
+                      <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                      <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+                    </div>
+                  </div>
                 </article>
+              </a>
             </li>
-            <li>
-              <a href="#0">
-                <article class="card">
-                  <h3>Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-                  <img src="images/card-lot-03.jpg" alt="Абстрактное изображение">
-                  <p>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+            <li class="lots__card-list-item">
+              <a class="lots__card-link" href="#0">
+                <article class="card image__card-lot-03 image__align">
+                  <div class="overlay">
+                    <div class="card__media">
+                      <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                      <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+                    </div>
+                  </div>
                 </article>
+              </a>
             </li>
           </ul>
+          <a class="lots__look-link lots__look-link-underline" href="#0">Посмотреть больше</a>
         </section>
         <section class="about">
           <div class="logo-column">
